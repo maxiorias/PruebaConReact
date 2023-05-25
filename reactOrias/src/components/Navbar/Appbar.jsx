@@ -1,12 +1,17 @@
 import React from 'react';
-import { AppBar } from '@mui/material';
+import Appbar from '@mui/material/Appbar';
+import Toolbar from '@mui/material/Toolbar';
 
-function AppBarComponent() {
+function AppbarComponent() {
   return (
-    <AppBar position="static">
-      {/* Contenido del AppBar */}
-    </AppBar>
+    <Appbar position="static">
+      <Toolbar>
+      <Link to="/">Inicio</Link>
+      <Link to="/productos">Productos</Link>
+      <Link to="/contacto">Contacto</Link>
+      </Toolbar>
+    </Appbar>
   );
 }
 
-export default AppBarComponent;
+export default AppbarComponent;

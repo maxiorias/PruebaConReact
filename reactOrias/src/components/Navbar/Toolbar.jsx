@@ -1,10 +1,11 @@
 import React from 'react';
-import { Toolbar } from '@mui/material';
+import Toolbar from '@mui/material/Toolbar';
 
 function ToolbarComponent() {
   return (
     <Toolbar>
-      {/* Contenido del Toolbar */}
+      <Button variant="contained">Botón 1</Button>
+      <Button variant="outlined">Botón 2</Button>
     </Toolbar>
   );
 }
