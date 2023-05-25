@@ -1,4 +1,7 @@
 import './App.css'
+import AppBar from './components/Navbar/AppBar';
+import Toolbar from './components/Navbar/Toolbar';
+import Typography from './components/Navbar/Typography';
 
 function App() {
 
