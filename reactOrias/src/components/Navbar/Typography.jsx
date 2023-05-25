@@ -1,10 +1,10 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import Typography from '@mui/material/Typography';
 
 function TypographyComponent() {
   return (
     <Typography variant="h6">
-      {/* Contenido del Typography */}
+      {/* Aquí puedes colocar el contenido específico del Typography */}
     </Typography>
   );
 }

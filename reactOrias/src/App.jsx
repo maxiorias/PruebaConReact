@@ -1,15 +1,17 @@
 import './App.css'
-import AppBar from './components/Navbar/AppBar';
+import Appbar from './components/Navbar/Appbar';
 import Toolbar from './components/Navbar/Toolbar';
 import Typography from './components/Navbar/Typography';
 
-function App() {
 
+function App() {
   return (
-    <>    
-      <h1>hi there! i'm Diego Maximiliano Orias</h1> 
-    </>
-  )
+    <div>
+      <AppbarComponent />
+      <ToolbarComponent />
+      <TypographyComponent />
+    </div>
+  );
 }
 
 export default App
